@@ -11,6 +11,12 @@ div#content {
     border: solid 1px #333333;
     height: 80vh;
 }
+div#challenge {
+    padding: 50px;
+    background-color: floralwhite;
+    border: solid 1px #333333;
+    height: 15vh;
+}
 
 h1, h2, h3 {
     font-family: fantasy;
