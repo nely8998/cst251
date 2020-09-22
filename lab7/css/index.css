@@ -5,39 +5,31 @@ body {
     font-size: 120%;
 }
 
-div#challenge {
+div#topview {
     padding: 50px;
     background-color: floralwhite;
-    border: solid 1px #333333;
-    width: 100vh;
-    height: 20vh;
+    border: solid 2px #333333;
+    height: 80vh;
 }
-div#problem {
+div#footer {
     padding: 50px;
     background-color: floralwhite;
-    border: solid 1px #333333;
-    width: 100vh;
-    height: 20vh;
+    border: solid 2px #333333;
+    height: 1vh;
 }
-div#result {
-    padding: 50px;
-    background-color: floralwhite;
-    border: solid 1px #333333;
-    width: 100vh;
-    height: 20vh;
+#mepicture {
+    float: right;
+    margin: 10px;
 }
 
 h1, h2, h3 {
     font-family: fantasy;
 }
-#mypicture {
-  float: right;
-  margin: 10px;
-}
+
 img {
     float: right;
-    width: 400px;
-    height: 50vh;
+    width: 420px;
+    height: auto;
 }
 
 a {
