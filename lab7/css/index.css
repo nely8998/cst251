@@ -5,27 +5,39 @@ body {
     font-size: 120%;
 }
 
-div#content {
-    padding: 50px;
-    background-color: floralwhite;
-    border: solid 1px #333333;
-    height: 80vh;
-}
 div#challenge {
     padding: 50px;
     background-color: floralwhite;
     border: solid 1px #333333;
-    height: 15vh;
+    width: 100vh;
+    height: 20vh;
+}
+div#problem {
+    padding: 50px;
+    background-color: floralwhite;
+    border: solid 1px #333333;
+    width: 100vh;
+    height: 20vh;
+}
+div#result {
+    padding: 50px;
+    background-color: floralwhite;
+    border: solid 1px #333333;
+    width: 100vh;
+    height: 20vh;
 }
 
 h1, h2, h3 {
     font-family: fantasy;
 }
-
+#mypicture {
+  float: right;
+  margin: 10px;
+}
 img {
     float: right;
     width: 400px;
-    height: auto;
+    height: 50vh;
 }
 
 a {
