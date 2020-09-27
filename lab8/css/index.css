@@ -26,6 +26,10 @@ div.footer {
     height: 1vh;
 }
 
+p.color {
+    color: #418391;
+}
+
 #flower {
     float: right;
     margin: 115px;
