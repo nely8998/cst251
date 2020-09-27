@@ -1,26 +1,34 @@
 body {
     font-family: fantasy;
-    background-color: darkolivegreen;
+    background-color: #015761;
     padding: 25px;
     font-size: 120%;
 }
 
-div#topview {
+div.topnav {
     padding: 50px;
     background-color: floralwhite;
     border: solid 2px #333333;
-    height: 80vh;
+    height: 2vh;
 }
-div#footer {
+
+div.content {
+    padding: 50px;
+    background-color: floralwhite;
+    border: solid 2px #333333;
+    height: 65vh;
+}
+
+div.footer {
     padding: 50px;
     background-color: floralwhite;
     border: solid 2px #333333;
     height: 1vh;
 }
 
-#mepicture {
+#flower {
     float: right;
-    margin: 17px;
+    margin: 115px;
 }
 
 h1, h2, h3 {
