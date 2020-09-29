@@ -1,0 +1,54 @@
+html, body {
+    font-family: fantasy;
+    background-color: #f2efe6;
+    padding: 10px;
+    font-size: 120%;
+}
+
+div#topnav {
+    padding: 50px;
+    background-color: floralwhite;
+    border: solid 9px #1b3657;
+    height: 3vh;
+}
+
+div#content {
+    margin: 20px;
+    padding: 40px;
+    border: solid 10px #1b3657;
+    background-color: #f2efe6;
+    height: 60vh;
+}
+
+div#footer {
+    padding: 50px;
+    background-color: floralwhite;
+    border: solid 10px #1b3657;
+    height: 1vh;
+}
+
+.oceanview {
+    float: right;
+    margin: 150px;
+}
+
+h1, h2, h3 {
+    font-family: fantasy;
+    color: #0e524d;
+
+}
+
+img {
+    float: right;
+    width: 420px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
