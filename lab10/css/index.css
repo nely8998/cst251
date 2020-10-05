@@ -1,5 +1,5 @@
 html, body {
-    font-family: fantasy;
+    font-family: "Courier New", Courier, monospace;
     background-color: #f2efe6;
     padding: 10px;
     font-size: 120%;
@@ -27,21 +27,22 @@ div#footer {
     height: 1vh;
 }
 
-.oceanview {
+.drink {
     float: right;
     margin: 150px;
 }
 
 h1, h2, h3 {
-    font-family: fantasy;
-    color: #0e524d;
-
+    font-family: "Lucida Console", monospace;
+    color: #b97455;
+    text-transform: capitalize;
+    letter-spacing: 3px;
 }
 
 img {
     float: right;
     width: 420px;
-    height: 400px;
+    height: 410px;
 }
 
 a {
