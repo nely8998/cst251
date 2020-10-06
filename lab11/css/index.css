@@ -1,40 +1,45 @@
 html, body {
     font-family: "Courier New", Courier, monospace;
-    background-color: #f2efe6;
-    padding: 10px;
+    background-color: #8C4501;
+    padding: 20px;
     font-size: 120%;
+    height: 190vh;
 }
 
-div#topnav {
+nav, #links {
     padding: 50px;
     background-color: floralwhite;
-    border: solid 9px #1b3657;
+    border: solid 9px #D96B02;
     height: 3vh;
+    position: sticky;
+    top: 0px;
 }
 
-div#content {
+main, #content {
     margin: 20px;
     padding: 40px;
-    border: solid 10px #1b3657;
+    border: solid 10px #D96B02;
     background-color: #f2efe6;
-    height: 60vh;
+    height: 155vh;
 }
 
-div#footer {
-    padding: 50px;
-    background-color: floralwhite;
-    border: solid 10px #1b3657;
-    height: 1vh;
+aside, #sidebar {
+    display: inline-block;
+    float: right;
+    min-width: 300px;
+    width: 30%;
+    background-color: #B2C5DB;
+    margin: 150px;
 }
 
 .drink {
     float: right;
-    margin: 150px;
+    margin: auto;
 }
 
 h1, h2, h3 {
     font-family: "Lucida Console", monospace;
-    color: #b97455;
+    color: #006E8C;
     text-transform: capitalize;
     letter-spacing: 3px;
 }
