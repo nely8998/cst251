@@ -32,11 +32,6 @@ aside, #sidebar {
     margin: 150px;
 }
 
-.drink {
-    float: right;
-    margin: auto;
-}
-
 h1, h2, h3 {
     font-family: "Lucida Console", monospace;
     color: #006E8C;

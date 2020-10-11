@@ -25,23 +25,29 @@ main, #content {
 }
 
 div#floated {
-  border: 1px solid black;
   width: 30%;
   float: right;
+  color: #9E8825;
 }
 
 div#center-horz {
-  width: 30%;
-  border: 1px solid black;
-}
-
-div#center-both {
-  height: 200px;
-  position: relative;
-}
-
-#center-horz p {
   text-align: center;
+  width: 30%;
+  margin: auto;
+  color: #9E8825;
+}
+div#center-both {
+    height: 200px;
+    position: relative;
+}
+
+div#center-both img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 h1, h2, h3 {
@@ -57,7 +63,7 @@ img, #center-img {
     margin-right: auto;
     width: 420px;
     height: 410px;
-
+}
 
 
 a {
