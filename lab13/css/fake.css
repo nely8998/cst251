@@ -1,0 +1,51 @@
+body, #container {
+    position: relative;
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    z-index: -100;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #181818;
+    font-family: Arial, sans-serif;
+    width: auto;
+    background-image: url(../img/sunrisepage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#left-top {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 20px
+  font-family: Arial, sans-serif;
+}
+
+#right-top {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 20px
+  font-family: Arial, sans-serif;
+}
+
+#year-number {
+  position: relative;
+  left: 30px;
+  top: 0px;
+  font-size: 300px;
+  font-weight: bold;
+}
+
+#text-middle {
+  position: absolute;
+  top: 640px;
+  left: 120px;
+  font-size: 23px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+}
