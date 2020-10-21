@@ -1,0 +1,96 @@
+html, body {
+    font-family: "Courier New", Courier, monospace;
+    background-image:linear-gradient(to right, #B1DF96, #5A9100);
+    padding: 20px;
+    font-size: 120%;
+    height: 330vh;
+}
+
+nav, #links {
+    padding: 20px;
+    background-color: floralwhite;
+    border: solid 6px #9C9C9C;
+    height: 8vh;
+    position: sticky;
+    top: 0px;
+}
+
+main, #content {
+    width: 93%;
+    margin: 10px;
+    padding: 20px;
+    border: solid 6px #9C9C9C;
+    background-color: #f2efe6;
+    height: 320vh;
+}
+
+
+#text-shadow p{
+  text-shadow: 2px 2px 8px #993300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ #box-shadow {
+   text-align: center;
+   border: 1px solid;
+   padding: 10px;
+   box-shadow: 5px 10px #888888;
+ }
+
+#rounded-corners {
+  text-align: center;
+  border-radius: 15px 50px 30px 5px;
+  border: 2px solid #85998D;
+  overflow: hidden;
+}
+
+#text-transform {
+  text-align: center;
+  transform: rotate(20deg);
+  top: 8px;
+  right: 16px;
+  float: right;
+}
+
+#image-filter img{
+    height: 410px;
+    filter: grayscale(80%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+#object-fit img {
+  height: 410px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+  height:400px;
+  object-fit:cover;
+}
+
+ #box-shadow h1 {
+   color: #7D962A;
+ }
+
+#rounded-corners h1 {
+   color: #7D962A;
+}
+
+h1, h2, h3 {
+    font-family: "Lucida Console", monospace;
+    color: #AC5B4D;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
