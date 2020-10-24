@@ -1,6 +1,6 @@
 html, body {
     font-family: "Courier New", Courier, monospace;
-    background-image:linear-gradient(to right, #B1DF96, #5A9100);
+    background-color: #85998D;
     padding: 20px;
     font-size: 120%;
     height: 330vh;
@@ -10,7 +10,7 @@ nav, #links {
     padding: 20px;
     background-color: floralwhite;
     border: solid 6px #9C9C9C;
-    height: 8vh;
+    height: 5vh;
     position: sticky;
     top: 0px;
 }
@@ -24,61 +24,7 @@ main, #content {
     height: 320vh;
 }
 
-
-#text-shadow p{
-  text-shadow: 2px 2px 8px #993300;
-  text-transform: uppercase;
-  text-align: center;
-}
-
- #box-shadow {
-   text-align: center;
-   border: 1px solid;
-   padding: 10px;
-   box-shadow: 5px 10px #888888;
- }
-
-#rounded-corners {
-  text-align: center;
-  border-radius: 15px 50px 30px 5px;
-  border: 2px solid #85998D;
-  overflow: hidden;
-}
-
-#text-transform {
-  text-align: center;
-  transform: rotate(20deg);
-  top: 8px;
-  right: 16px;
-  float: right;
-}
-
-#image-filter img{
-    height: 410px;
-    filter: grayscale(80%);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
-#object-fit img {
-  height: 410px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:200px;
-  height:400px;
-  object-fit:cover;
-}
-
- #box-shadow h1 {
-   color: #7D962A;
- }
-
-#rounded-corners h1 {
-   color: #7D962A;
-}
-
+/* Heading Styling */
 h1, h2, h3 {
     font-family: "Lucida Console", monospace;
     color: #AC5B4D;
@@ -86,11 +32,39 @@ h1, h2, h3 {
     letter-spacing: 3px;
 }
 
+/* Under is homepage link styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid floralwhite;
+  background-color: floralwhite;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
 a {
     text-decoration: none;
     color: maroon;
 }
+
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: solid;
 }
