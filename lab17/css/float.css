@@ -1,0 +1,70 @@
+html, body {
+    font-family: "Courier New", Courier, monospace;
+    padding: 1px;
+    font-size: 120%;
+    height: 349vh;
+    background-color: #fffdf0;
+}
+
+nav, #links {
+    padding: 6px;
+    background-color:	#ecd419;
+    border: solid 6px #ecd419;
+    height: 5vh;
+    position: sticky;
+    top: 0px;
+}
+
+main, #content {
+    width: 93%;
+    margin: 10px;
+    padding: 20px;
+    border: solid 6px #fffdf0;
+    background-color: #fffdf0;
+    height: 320vh;
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+    font-family: "Lucida Console", monospace;
+    color: #AC5B4D;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+/* Under is homepage link styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #fffdf0:
+  background-color: #fffdf0;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}

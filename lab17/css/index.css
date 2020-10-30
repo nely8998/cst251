@@ -1,0 +1,109 @@
+html, body {
+    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    margin-left: 100px;
+    padding-left: 20px;
+    font-size: 120%;
+    height: 100vh;
+    background-color: #fffdf0;
+}
+
+main, #content {
+    width: 93%;
+    margin: 10px;
+    padding: 20px;
+    border: solid 6px #fffdf0;
+    background-color: #fffdf0;
+    height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+aside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #9ABD7E;
+  overflow-x: hidden;
+}
+
+nav, #links {
+    padding: 6px;
+    background-color:	#ecd419;
+    border: solid 6px #ecd419;
+    height: 5vh;
+    position: sticky;
+    top: 0px;
+}
+
+footer {
+  background-color: #fffdf0;
+  padding: 10px;
+  height: 10vh;
+}
+
+#text-second p{
+   margin: 50px 50px;
+}
+
+/* Image styling */
+#logo img{
+  width: 7%;
+  height: auto;
+}
+
+#logo-second img{
+  width: 12%;
+  height: auto;
+  float: left;
+  overflow: auto;
+}
+
+/* Heading Styling */
+h1, h2, h3 {
+    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    color: #323D29;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+/* Under is homepage link styling */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #fffdf0:
+  background-color: #fffdf0;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: #323D29;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+a {
+    text-decoration: none;
+    color: #323D29;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
