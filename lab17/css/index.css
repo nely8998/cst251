@@ -1,5 +1,5 @@
 html, body {
-    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-family: "Lucida Console", monospace;
     margin-left: 100px;
     padding-left: 20px;
     font-size: 120%;
@@ -91,7 +91,7 @@ footer {
 
 /* Heading Styling */
 h1, h2, h3 {
-    font-family: Helvetica,"Helvetica Neue",Arial,"Lucida Grande",sans-serif;
+    font-family: "Lucida Console", monospace;
     color: #323D29;
     text-transform: capitalize;
     letter-spacing: 3px;
