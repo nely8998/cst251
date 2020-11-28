@@ -10,3 +10,7 @@
 .col h1, .col h2 {
   text-align: center;
 }
+
+.container-fluid padding {
+  border; black solid 1px;
+}
